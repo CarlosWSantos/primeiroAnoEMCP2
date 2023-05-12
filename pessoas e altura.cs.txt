@@ -1,0 +1,39 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp26
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string humano1;
+            int i = 0;
+            double maior = 0;
+            double menor = 9999;
+            while (i < 15) {
+                Console.WriteLine("Digite a altura da  pessoa:");
+                humano1 = Console.ReadLine();
+                double alt = Convert.ToDouble(humano1);
+
+                //maior
+                if (alt > maior)
+                {
+                    maior = alt;
+
+                }
+                if (alt < menor)
+                {
+                    menor = alt;
+                }
+                i++;
+            }
+            Console.WriteLine("Maior = " + maior);
+            Console.WriteLine("Menor = " + menor);
+            Console.ReadLine();
+        }
+    }
+}

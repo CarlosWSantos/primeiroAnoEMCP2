@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp19
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 1;
+            int r = 1;
+            
+            while (x <1000);
+            {
+                int primo = 0;
+                while (r < 1000) ;
+                {
+                    if (x%r ==0) ;
+                    {
+                        primo++;
+                    }
+                    r++;
+                }
+                r =  1;
+                if (primo == 2)
+                {
+                    Console.WriteLine(x + "é primo");
+                }
+                x ++;
+            }
+            Console.ReadLine();
+        }
+    }
+}

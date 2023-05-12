@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+
+<html>
+<lang =PT>
+<head>
+	<meta charset="UTF-8">
+  <title>COMO SE DEFENDER DE UM ATAQUE ZUMBI</title>
+	
+	<style>
+    
+    .background
+	{
+		background-image:url("https://gta4-mods.com/images/16063/1343661971_gallery330.jpg");
+		background-repeat:repeat;
+		background-position:top ;
+		background-attachment: scroll;
+		
+
+	}
+    
+		.h1
+		{
+			font-size:41px ;
+			text-align: center;
+			color:rgb(224, 6, 6);
+		}
+		.h2
+		{
+			font-family: "Comic Sans MS",cursive;
+			text-align:center;
+			color:rgb(255, 255, 51);
+		}
+    .button
+    {
+      display: inline-block;
+      padding: 8px 8px;
+      font-size: 13px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: orange;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+
+    }
+    .button:hover 
+    {
+      background-color: orange;
+    }
+    .button:active 
+    {
+      background-color: red;
+      box-shadow: 0 5px #777;
+      transform: translateY(4px);
+    }
+    .dropdown 
+    {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {background-color: #f1f1f1
+    }
+
+    .show {display:block;}
+
+		.p
+		{
+			text-transform: capitalize;
+			color:green;
+			letter-spacing: 4px;
+			font-family: "Sans-Serif",Sans-Serif;
+			font-size: 25px;
+		}
+		.p1
+		{
+			color:rgb(255, 255, 255);
+			font-size:18px ;
+			font-family:"Arial","Helvetica",Arial, Helvetica, sans-serif;
+			font-style: italic;
+		}
+		.p2
+		{
+			color:rgb(230, 0, 0);
+			font-size: 31px;
+			font-family: "Comic Sans MS",cursive;
+
+		}
+		.p3
+		{
+			color:black;
+			font-size:21px;
+			font-family: "Comic Sans MS",cursive;
+		}
+		.p4
+		{
+			color:rgb(115, 230, 0);
+			font-size:37px;
+			font-family: "Comic Sans MS",cursive;
+		}
+		.p5
+		{
+			text-align: top top;
+			color:rgb(115, 230, 0);
+			font-size:29px;
+			font-family: "Comic Sans MS",cursive;
+
+		}
+		.p6
+		{
+			text-align: center;
+			color:rgb(230, 0, 0);
+			font-size:25px;
+			font-family:"Comic Sans MS",cursive; 
+		}
+    .p7
+    {
+      text-align: middle;
+      color:rgb(255, 0, 0);
+      font-size:43px;
+      font-family:"Comic Sans MS",cursive; 
+    }
+    .p8
+    {
+      text-align: middle;
+      color:rgb(255, 0, 0);
+      font-size:27px;
+      font-family:"Comic Sans MS",cursive; 
+    }
+    .p9
+    {
+      
+      color:rgb(7, 235, 235);
+      font-size: 23px;
+      font-family: "Comic Sans MS",cursive;
+    }
+    .p10
+    {
+      text-align: center;
+      font-size: 37px;
+      color:hsl(252°, 93%, 59%);
+      font-family: "Comic Sans MS",cursive;
+    }
+		.pprim
+		{
+			font-size: 56px;
+			color:rgb(102, 255, 102);
+		}
+		.div
+		{
+			background-image: url("https://www.comboinfinito.com.br/principal/wp-content/uploads/2018/11/the-walking-dead-sussurradores.jpg");
+			background-position: center;
+			width: 320px;
+  			padding: 10px;
+  			border: 20px solid gray;
+  			margin: 0;
+  		}
+  		.div2
+  		{
+  			
+			background-position: center;
+			width: 320px;
+  			padding: 10px;
+  			border: 9px solid maroon;
+  			margin: 0;
+  		}
+  		.div3
+  		{
+  			background-position: center;
+			width: 266px;
+  			padding: 10px;
+  			border: 10px dotted white;
+  			margin: 2px;
+  		}
+  		.div4
+  		{
+  			background-position: center;
+			width: 266px;
+  			padding: 10px;
+  			border: 17px inset brown;
+  			margin: 2px;
+  		}
+  		.div5
+  		{
+  			background-position: center;
+			width: 178px;
+  			padding: 10px;
+  			border: 13px outset black ;
+  			margin: 2px;
+  		}
+  		.div6
+  		{
+  			background-color:white;
+  			background-position:center ;
+  			width:150px;
+  			height: 80px;
+  			padding:10px;
+  			border:11px solid rgb(0, 204, 163);
+  			margin:2px;
+  		}
+  		.div7
+  		{
+  			background-image :url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjlVdWTAJz1EUkKQI21xoZWuzD2D17hlSW8TcZoUCEUI8NOJRESA") ;
+  			background-position: middle;
+  			object-fit: scale-down;
+  			width:230px;
+  			height:140px;
+  			padding:10px;
+  			border:13px solid black;
+  			margin:6px;
+  		}
+  		.div8
+  		{
+  			background-image :url("https://vignette.wikia.nocookie.net/residentevil/images/a/ac/Ganados.jpg/revision/latest?cb=20110625014623&path-prefix=pt-br"); 
+  			background-position: center;
+  			background-size: 98%;
+  			width:280px;
+  			height:140px;
+  			padding:10px;
+  			border:13px solid black;
+  			margin:6px;
+
+  		}
+  		.div9
+  		{
+  			background-image : url("https://miro.medium.com/max/700/1*BaF4VCOROv6HnJ-nokeyjg.jpeg");
+  			background-position: center;
+  			width:260px;
+  			height:170px;
+  			padding: 15px;
+  			border: 9px inset gray;
+  			margin:40px; 
+  		}
+  		.div10
+  		{
+  			background-image:url("https://store.playstation.com/store/api/chihiro/00_09_000/container/BR/pt/999/UP9000-BCUS98174_00-UALOUSRUNNER0000/1520606542000/image?w=240&h=240&bg_color=000000&opacity=100&_version=00_09_000") ;
+  			background-position: center;
+        background-size: 120%;
+  			width:240px;
+  			height:170px;
+  			padding:15px;
+  			border:9px outset orange;
+  			margin:40px;
+  		}
+      .div11
+      {
+        background-image: url("http://pm1.narvii.com/6506/dfa1c901327088f759eaf2de5ae9450aff071b3a_00.jpg");
+        background-position: center;
+        background-size: 120%;
+        width:240px;
+        height:170px;
+        padding:15px;
+        border:9px outset orange;
+        margin:40px;
+      }
+      .div12
+      {
+        background-image: url("https://zumbisdomundo.files.wordpress.com/2014/09/3a7a4-the-last-of-us-moster.jpg");
+        background-position: center;
+        background-size: 120%;
+        width:240px;
+        height:135px;
+        padding:15px;
+        border:9px outset orange;
+        margin:40px;
+      }
+      .div13
+      {
+        background-image: url("https://pm1.narvii.com/6392/123ef8108ed11ad1e94cd88afad6972e7f7475d8_hq.jpg");
+        background-position: center;
+        
+        width:390px;
+        height:785px;
+        padding:15px;
+        border:9px outset orange;
+        margin:40px;
+      }
+      .div14
+      {
+        background-color: rgb(77, 0, 0);
+        background-position: center;
+        width:190px;
+        height:120px;
+        border:11px groove rgb(0, 179, 89);
+        margin:35px;
+      }
+      .div15
+      {
+        text-align: bottom;
+        background-image: url("https://img.ohmymag.com.br/article/maquiagem/por-tras-deste-zumbi-horroroso_e0790ceaeecc86ef70c0424322671fef528192dc.jpg");
+        background-position: center;
+        background-size: 99%;
+        width:230px;
+        height:170px;
+        border:8px inset rgb(0, 0, 128);
+        margin:35px;
+      }
+  		.img1
+  		{
+  			object-fit: scale-down;
+  			width:950px;
+  			height:950px;	
+  		}
+  		.img2
+  		{
+  			object-fit: scale-down;
+  			width:760px;
+  			height:760px;
+  		}
+	</style>
+</head>
+<body>
+	<body background class="background">
+
+<center><div class="div">
+<p class="pprim">Como sobreviver a um apocalipse zumbi!</p>
+</div></center>
+<p>                                  </p>
+<p>                                  </p>
+<center><div class="div2"><h1 class="h1">Os primeiros passos e os primeiros dias</h1></div></center>
+<p class="p">Primeiramente tenha um abrigo ele será essencial</p>
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/AldoLeopoldShack.jpg" class="img2" alt=""></center>
+<p class="p">Depois proteja o abrigo como  por exemplo defendendo portas e janelas com tábuas de madeira ou móveis que você não usará</p>
+
+
+<p></p>
+
+<center><div class="div3"><p class="p1"><big>TENHA UMA ARMA!</big></p></div></center>
+<p class="p">A sua arma é muito importante para a sua sobrevivência,armas não só são rifles,espingardas etc.Use a criatividade usando martelos,bastões,canos,facas,estilingues entre outros.Se puder use objetos cortantes ou pesados.</p>
+
+<hr color="red"></hr>
+<hr color="black"></hr>
+<p></p>
+
+<center><img src="https://s7d2.scene7.com/is/image/academy/10527790"class="img1" alt=""></center>
+
+<p></p>
+
+
+<center><div class="div4"><p class="p2"><big>Fique em lajes e porões!</big></p></div></center>
+<p class="p">Será mais difícil dos zumbis o detectarem por terem uma visão e audição inferiores.</p>
+<center><div class="div5"><h2 class="h2">Companhia</h2></div></center>
+<p class="p">Como sobreviver sozinho é bem difícil e mais perigoso tenha um parceiro(a) ou mesmo alguém que você não conheça.Mais tome cuidado!Aqui vai algumas dicas para saber se você está com alguém infectado:</p>
+<center><div class="div6"><p class="p3">1-A coloração da pele:</p></div></center>
+<p class="p">Se você desconfiar que está com alguém infectado veja se a coloração da pele do indivíduo,as cores de zumbis podem variar de preta(ou cinza),azul,verde(o mais comum),amarelo,laranja e até roxo!</p>
+<center><div class="div6"><p class="p3">2-Hábitos desumanos</p></div></center>
+<p class="p">Hábitos e comportamentos estranhos para os zumbis geralmente são:Fome constante,gritar,comer coisas anormais, como coisas vivas </p>
+<center><div class="div6"><p class="p3">3-Marcas no corpo</p></div></center>
+<p class="p">Geralmente o meio mais comum de transmissão é pela mordida ou injeção do vírus ou pelos espóros emanados do corpo ou da boca do zumbi então caso você veja qualquer marcas estranha procure saber com o indivíduo do que ela se trata mas mesmo assim tome cuidado!</p>
+<center><div class="div6"><p class="p3">4-Isolando e matando...</p></div></center>
+<p class="p">Caso ele apresente pelo menos 1 desses fatores e continue por pelo menos 10 horas,você terá duas escolhas (caso não queira morrer) .</p>
+<p class="p6">
+<center><div class="div7"><p class="p4">Tipos de zumbis!</p></div></center>
+<p></p>
+<center><div class="div8"><p class="p5">Ganado ou semi-zumbi(fonte:Resident Evil 4):</p></div></center>
+<center><p class="p">(Aviso todos os tipos são fictícios e caso realmente ocorra um apocalipse zumbi, tem uma pequena chance de ter um tipo igual ou semelhante na vida real).É considerado semi zumbi por não ser um zumbi totalmente (DÂÂÂÂÃÃÃÂ) ele tem consciência do que faz e age mais como um ser humano do que um zumbi.Esse tipo de zumbi é o do tipo de transmissão por injeção e eles não podem transmitir o vírus de nenhuma outra forma.O vírus dos ganados é conhecido como o vírus Las Plagas da variante subordinada, pois os seus superiores(Variante Controladora) podem controlar os indivíduos que possuem a variante subordinada.</p></center></p>
+<center><div class="div9"><p class="p5">Cordyceps e variantes(Fonte:The Last of US):</center>
+<p class="p">Cordyceps é um tipo de fungo (QUE EXISTE!) que atua em insetos e em atrópodes mas depois de uma experiência laboratorial ter dado errado o vírus evoluiu e ele começou a agir em seres humanos.Sua fraqueza é o fogo.O vírus começa crescendo no cérebro e conforme evolui passa para o resto do corpo, consequentemente por ele crescer no cérebro o hospedeiro aos poucos perde a sua função cerebral.Esse tipo de vírus pode ser transmitido tanto por mordida e tanto por espóros!O parasita cresce enquanto o usuário está vivo.O vírus tem 4 estágios:Corredores,Perseguidores,Estaladores e vermes.
+</p>
+<center><div class="div10"><p class="p6">Corredores</p></div></center>
+<p class="p">É o parasita no primeiro estágio ou no estágio inicial.Como o nome diz ele é incrívelmente rápido.Não demonstra ter nenhum vírus no começo mas depois o indivíduo age fora de si realmente como um zumbi (procurando reproduzir o vírus e também procurando comida ).Ele tem uma boa visão e a sua audição é normal.O parasita não cresceu o suficiente para sair do corpo.Médio estinto zumbi.</p>
+<center><div class="div11"><p class="p6">Perseguidores</p></div></center>
+<p class="p">O parasita está em um estágio um pouco mais avançado.É possível ver o parasita fora do rosto.A sua visão é diminuída.Médio instinto zumbi.</p>
+<center><div class="div12"><p class="p6">Estaladores</p></div></center>
+<p class="p">O parasita está em seu penultimo estágio, é possível ver o parasita para fora do rosto e o corpo está com um tom esbranquiçado.Ele é bem lento comparado aos outros estágios mais caso seja necessário ele corre bem rápido.Pelo parasita cobrir os seus olhos totalmente, ele não tem como enxergar mas a sua audição é ótima!Parecido com os morcegos os estaladores utilizam a ecolocalização (emitir sons ou ruídos e cápitalos fazendo um mapa em sua mente etc.) fazendo estalos com a sua língua e outras partes do corpo.Alto estinto zumbi.</p>
+<center><div class="div13"><p class="p7">Baiacu ou Verme</p></div></center>
+<p class="p8">ELE É BASICAMENTE UMA MÁQUINA DE MATAR!Com o corpo gordo coberto pelo parasita no estágio final ele é extremamente forte e tem um alto poder defensivo, ele atira esferas de espóros.Muito cuidado ao enfrentá-lo.Lembrando cada estágio é uma ordem de quanto tempo que o parasita evoluiu e nesse o parasita está no estágio final (Para atingir este estágio o hospedeiro deve ter evoluído por pelo menos 1 ano).Depois de um grande tempo nesse estágio ele explode criando uma área de espóros para contaminar outros hospedeiros.</p>
+<center><img src="http://s.glbimg.com/po/tt/f/original/2013/07/19/verme-foto-reproducao.jpg"></center>
+<center><div class="div14"><p class="p5">Outras preoucações</p></div></center>
+<p class="p">Bom já mostramos como sobreviver nos primeiros dias,já mostramos como saber se alguém está infectado e também alguns tipos diferenciados de zumbis.Mas já ia esquecendo o tipo principal e mais comum de zumbi, O "zumbi"(sim o genérico mesmo porquê tem gente que não sabe e é sempre bom colocar).Também iremos mostrar como sobreviver o maior tempo possível durante o apocalipse ou infestação.</p>
+<center><div class="div15"><p class="p9">O zumbi</p></div></center>
+<p class="p">Depois de com sorte você ter sobrevivido alguns dias (não quero ser negativo) a comida começará a ficar em falta e você terá que sair de seu abrigo para buscar mais, se você estiver sozinho espere ficar totalmente silencioso do lado de fora e ande com cuidado e furtivamente, procure por casas abandonadas, mercados, lojas etc.Infelizmente como sabemos que comida enlatada é cheia de conservantes e essas outras coisas, nessa hora ela é a melhor opção por durar muito tempo.Pegue o máximo de comida que conseguir carregar mas não deixe ao ponto de ficar pesado e fazer barulho.Agora se por qualquer motivo você ter sido infectado.Rapidamente procure uma cura ou uma forma de fazer com que transmita mais lentamente.Caso você tenha sido infectado por uma mordida você pode amputar o membro no qual foi mordido para evitar que o seu corpo inteiro seja infeccionado.Mas caso não haja escolha (e com certeza [infelizmente] essa é a melhor escolha se você não estiver sozinho) é você perder a própria vida...</p>
+</p></div></center>
+<center><p class="pprim">O zumbi!</p></center>
+<p class="p">Aqui está o mais esperado e a base de todos os outros(literalmente).O zumbi é o conceito do morto retornar a vida.A maioria das histórias mostram zumbis sendo criados com voodoo, magia ou algum experimento(exemplo:Frankestein é um zumbi!) mais existem outros tipos como por exemplo eles serem criados expontâneamente, sim!Do nada eles renascerem e começar a matar pessoas.Como já disse, a forma de transmissão do vírus,praga,parasita,fungo,etc.Mais comuns são por mordida,injeção e algum tipo de contato com os espóros.Mais existem outros tipos de contaminação (esse exemplo é bem idiota) por exemplo "Zumbis Dançarinos"!Se você dançar você vira zumbi e morre.
+Agora farei aqui as características dos zumbis separadamente: </p>
+<p class="p10">Ele nunca (NUNCA!) terá a consciência de quem ele era então nem tente conversar com ele como fazem nos desenhos animados</p>
+<p class="p10">Seu olfato e audição são ótimos.Tome cuidado com isso.</p>
+<p class="p10">Zumbis não morrem, eles apodrecem.E as vezes eles podem retornar ou "ressuscitar"(Bom, tecnicamente zumbis não podem ressuscitar por já estarem mortos mais fazer o que né...).</p>
+<p class="p10">Alguns tipos de zumbis por terem a carne do corpo mole e podre os projéteis das armas simplesmente ultrapassam o corpo dele.</p>
+<p class="p10">Zumbis por ser considerado um ser mágico, pode ocorrer algum tipo de mutação e 
+<p class="p">Essas dicas apesar de serem iniciais são essenciais e para continuar vivo basta repetir  tudo isso.Lembre-se que companhia e ajuda são sempre bem vindos!Agora tente sobreviver o maior tempo!Bom agradeço por visitar!  :)</p>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercício 5: apresentar os caracteres de uma string e suas posições.</title>
+</head>
+<!-- Vê os caracteres pares da frase "Olá, tudo bem?" -->
+<script type="text/javascript">
+	
+	var frase = "Olá, tudo bem?";
+	document.write(frase+"<br>");
+	tamanho=frase.length;
+	for (var i = 0; i < tamanho; i++) {
+	document.write("<br>Caractere na posição "+i+": "+frase.charAt(i)); i++;
+	}
+
+
+document.write("<br><br>Primeiro caractere:" + frase.charAt(0) + "<br />");
+document.write("Último caractere: " + frase.charAt(frase.length-1));
+
+/*
+O método charAt() retorna o caractere da posição especificada da string(do índice especificado).
+*/
+
+</script>
+<body>
+
+</body>
+</html>

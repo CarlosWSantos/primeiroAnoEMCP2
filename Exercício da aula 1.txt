@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/3/w3.css">
+
+<head>
+<title> MEU PRIMEIRO SITE</title>
+</head>
+
+<body>
+
+<!-- Esta é minha barra de navegação  --> 
+<nav class="w3-bar w3-black">
+<a href="#home" class="w3-button w3-bar-item"> HOME </a>
+<a href="#SOBRENOS" class="w3-button w3-bar-item"> SOBRE NÓS </a>
+<a href="#CONTATO" class="w3-button w3-bar-item"> CONTATO </a>
+</nav>
+
+<!-- ISTO É UM SLIDESHOW-->
+	<section>
+		<img class="mySlides" src="exemplo1.jpg" style="width:100%">
+	</section>
+
+
+<!-- DESCRIÇÃO-->
+<section class="w3-container w3-center w3-content" style="max-width: 600px">
+	<h2 class="">O melhor sentimento do mundo é ver alguém sorrir e saber que você é o motivo.</h2>
+	<p>
+		ESSA FRASE É LINDA,TEM O QUE FALAR NÃO!
+		IGUAL O CURSO
+	</p>
+
+
+
+</script>
+<!--RODAPÉ DO SITE-->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+	<a href="#"><i class="fa fa-facebook-official"></i></a>
+	<a href="#"><i class="fa fa-twitter"></i></a>
+	<p class="w3-medium">Desenvolvido por Carlos Matheus Xavier de Rosangela de Souza Ferreira Abtibol Santos de Jesus Barbosa Faria Nunes Rosa Espitangênico Vieira<a href="https://www.youtube.com/channel/UCQegj-Nh1cC6tduKrj0lOVg?view_as=subscriber" target="_blank">.......................................................................................................................................................</a></p>
+
+
+
+</footer>
+
+
+
+
+</body>
+
+
+
+
+</html>

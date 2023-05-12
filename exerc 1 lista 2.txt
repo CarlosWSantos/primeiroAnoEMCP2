@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp26
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        	int meuarray = conjunto 10
+        	Console.WriteLine(meuarray);
+        }
+    }
+}
+https://www.youtube.com/watch?v=3y5UBLlQ1EM&list=PLucm8g_ezqNoMPIGWbRJXemJKyoUpTjA1&index=18
